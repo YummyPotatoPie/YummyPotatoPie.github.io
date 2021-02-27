@@ -6,7 +6,9 @@
         <link rel="stylesheet" href="../css/body.css">
         <link rel="stylesheet" href="../css/head.css">
         <link rel="stylesheet" href="../css/content.css">
+        <link rel="stylesheet" href="../css/footer.css">
         <link rel="stylesheet" href="../css/form.css">
+        <link rel="stylesheet" href="../css/description.css">
     </head>
     <body>
         <header id="header">
@@ -14,5 +16,37 @@
                 <p>CELL1</p>
             </div>
         </header>
+        <div id="description-field">
+            <p id="titles">Команды</p>
+            <div id="commands-desc-field">
+                <p>
+                    add_n - команда добавляющая n единиц к значению ячейки памяти,
+                    затем результат делится по модулю на 128.
+                    Примеры: add_45, add_2, add_129
+                </p>
+                <p>
+                    loop_n - команда запускающая арифметический цикл со значением счетчика 
+                    равное n, a
+                    endloop_k - команда выполняющая проверку, что n меньше  или равно k, если меньше
+                    продолжает цикл, в ином случае завершает.
+                </p>
+                <p >
+                    output - команда выводящая в консоль символ ASCII кодовое значение которого
+                    соответствует значению в ячейке памяти.
+                </p>
+            </div>
+            <p id="titles">Пример программы</p>
+            <div id="commands-desc-field">
+                <p>
+                    <span>add_34</span>
+                    <span>add_34</span>
+                    <span>add_34</span>
+                    <span>add_34</span>
+                </p>
+            </div>
+        </div>
+        <footer id="footer">
+
+        </footer>
     </body>
 </html>
